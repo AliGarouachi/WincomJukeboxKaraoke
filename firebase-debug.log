@@ -1,0 +1,141 @@
+[debug] [2019-06-24T13:55:05.588Z] ----------------------------------------------------------------------
+[debug] [2019-06-24T13:55:05.592Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Katouchi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2019-06-24T13:55:05.592Z] CLI Version:   7.0.1
+[debug] [2019-06-24T13:55:05.592Z] Platform:      win32
+[debug] [2019-06-24T13:55:05.592Z] Node Version:  v10.14.2
+[debug] [2019-06-24T13:55:05.594Z] Time:          Mon Jun 24 2019 14:55:05 GMT+0100 (GMT+01:00)
+[debug] [2019-06-24T13:55:05.594Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-06-24T13:55:05.608Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-06-24T13:55:05.609Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\wamp64\www\Connect\JukeBox\jukeboxWincom\ngx-youtube-player
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2019-06-24T13:55:10.754Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?page_size=100  
+ 
+[debug] [2019-06-24T13:55:11.692Z] <<< HTTP RESPONSE 200
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2019-06-24T13:55:15.602Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2019-06-24T13:55:16.726Z] Error: unable to get local issuer certificate
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1049:34)
+    at TLSSocket.emit (events.js:182:13)
+    at TLSSocket.EventEmitter.emit (domain.js:441:20)
+    at TLSSocket._finishInit (_tls_wrap.js:631:8)
+[error] 
+[error] Error: Server Error. unable to get local issuer certificate
+[debug] [2019-06-24T13:55:30.193Z] ----------------------------------------------------------------------
+[debug] [2019-06-24T13:55:30.197Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Katouchi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2019-06-24T13:55:30.197Z] CLI Version:   7.0.1
+[debug] [2019-06-24T13:55:30.197Z] Platform:      win32
+[debug] [2019-06-24T13:55:30.197Z] Node Version:  v10.14.2
+[debug] [2019-06-24T13:55:30.200Z] Time:          Mon Jun 24 2019 14:55:30 GMT+0100 (GMT+01:00)
+[debug] [2019-06-24T13:55:30.200Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-06-24T13:55:30.213Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-06-24T13:55:30.214Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\wamp64\www\Connect\JukeBox\jukeboxWincom\ngx-youtube-player
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2019-06-24T13:55:34.285Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?page_size=100  
+ 
+[debug] [2019-06-24T13:55:34.350Z] Error: getaddrinfo ENOTFOUND firebase.googleapis.com firebase.googleapis.com:443
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:57:26)
+[error] 
+[error] Error: Server Error. getaddrinfo ENOTFOUND firebase.googleapis.com firebase.googleapis.com:443
+[debug] [2019-06-24T13:58:08.553Z] ----------------------------------------------------------------------
+[debug] [2019-06-24T13:58:08.557Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Katouchi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2019-06-24T13:58:08.558Z] CLI Version:   7.0.1
+[debug] [2019-06-24T13:58:08.558Z] Platform:      win32
+[debug] [2019-06-24T13:58:08.558Z] Node Version:  v10.14.2
+[debug] [2019-06-24T13:58:08.560Z] Time:          Mon Jun 24 2019 14:58:08 GMT+0100 (GMT+01:00)
+[debug] [2019-06-24T13:58:08.560Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-06-24T13:58:08.574Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-06-24T13:58:08.575Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\wamp64\www\Connect\JukeBox\jukeboxWincom\ngx-youtube-player
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2019-06-24T13:58:14.575Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?page_size=100  
+ 
+[debug] [2019-06-24T13:58:14.949Z] <<< HTTP RESPONSE 200
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote public/404.html
+[debug] [2019-06-24T13:58:20.273Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2019-06-24T13:58:21.188Z] Error: unable to get local issuer certificate
+    at TLSSocket.onConnectSecure (_tls_wrap.js:1049:34)
+    at TLSSocket.emit (events.js:182:13)
+    at TLSSocket.EventEmitter.emit (domain.js:441:20)
+    at TLSSocket._finishInit (_tls_wrap.js:631:8)
+[error] 
+[error] Error: Server Error. unable to get local issuer certificate

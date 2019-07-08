@@ -1,0 +1,10 @@
+<form [formGroup]="searchForm" (ngSubmit)="doSearch($event)">
+  <div class="mdl-textfield mdl-js-textfield">
+    <input ng-virtual-keyboard ngmodel="textinput"  [ngStyle]="{'color': 'white'}"  class="mdl-textfield__input" formControlName="query" type="text" id="query" autocomplete="off">
+    <div class="simple-keyboard"></div>
+    <label class="mdl-textfield__label" for="query">Search</label>
+  </div>
+  <button type="submit" [ngStyle]="{'color': '#e4087e'}" class="mdl-button mdl-js-button mdl-button--icon">
+		<i class="material-icons">search</i>
+	</button>
+</form>
